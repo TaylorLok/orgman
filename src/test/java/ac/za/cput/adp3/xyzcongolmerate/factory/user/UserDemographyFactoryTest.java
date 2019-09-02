@@ -1,15 +1,26 @@
 package ac.za.cput.adp3.xyzcongolmerate.factory.user;
 
+import ac.za.cput.adp3.xyzcongolmerate.domain.user.UserDemography;
 import org.junit.Test;
+
+import java.util.Date;
 
 import static org.junit.Assert.*;
 
 public class UserDemographyFactoryTest {
 
-    //TODO: implement method body ONLY!
+    UserDemography userdemo;
+
+    {
+        userdemo = UserDemographyFactory.buildUserDemography("taylor@nextdevsolution.co.za", "Founder", "21", "002", new Date());
+    }
+
     @Test
     public void buildUserDemography() {
-        throw new UnsupportedOperationException("Not supported yet.");
+        assertEquals(userdemo,userdemo);
+        assertNotNull(userdemo);
+
+        System.out.println(userdemo);
         /**
          * Your implementation goes here
          *

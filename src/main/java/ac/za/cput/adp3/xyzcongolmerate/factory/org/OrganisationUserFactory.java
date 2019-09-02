@@ -4,9 +4,10 @@ import ac.za.cput.adp3.xyzcongolmerate.domain.org.OrganisationUser;
 
 public class OrganisationUserFactory {
 
-    //TODO: implement method body ONLY!
+
     public static OrganisationUser buildOrganisationUser(String orgCode, String userEmail) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        OrganisationUser org = new OrganisationUser(orgCode,userEmail);
+        return org;
         /**
          * Your implementation goes here
          * INSTRUCTIONS

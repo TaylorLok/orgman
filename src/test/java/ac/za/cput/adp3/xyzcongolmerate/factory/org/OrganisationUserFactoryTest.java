@@ -12,7 +12,7 @@ public class OrganisationUserFactoryTest {
     @Test
     public void buildOrganisationUser() {
         assertEquals(orgUser,orgUser);
-        assertNotNull(orgUser);
+        assertNotNull(orgUser.getOrgCode());
 
         System.out.println(orgUser);
         /**

@@ -13,7 +13,7 @@ public class OrganisationFactoryTest {
     public void buildOrganisation() {
 
         assertEquals(org,org);
-        assertNotNull(org);
+        assertNotNull(org.getOrgCode());
 
         System.out.println(org);
 

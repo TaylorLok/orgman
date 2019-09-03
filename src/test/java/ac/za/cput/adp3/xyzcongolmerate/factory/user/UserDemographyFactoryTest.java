@@ -18,7 +18,7 @@ public class UserDemographyFactoryTest {
     @Test
     public void buildUserDemography() {
         assertEquals(userdemo,userdemo);
-        assertNotNull(userdemo);
+        assertNotNull(userdemo.getRaceId());
 
         System.out.println(userdemo);
         /**

@@ -12,7 +12,7 @@ public class UserRoleFactoryTest {
     @Test
     public void buildUserRole() {
         assertEquals(userRole,userRole);
-        assertNotNull(userRole);
+        assertNotNull(userRole.getRoleId());
 
         System.out.println(userRole);
         /**

@@ -12,7 +12,7 @@ public class UserFactoryTest {
     @Test
     public void buildUser() {
         assertEquals(user,user);
-        assertNotNull(user);
+        assertNotNull(user.getUserEmail());
 
         System.out.println(user);
         /**

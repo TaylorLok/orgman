@@ -12,7 +12,7 @@ public class RaceFactoryTest {
     public void buildRace() {
         Race race = RaceFactory.buildRace("White");
         assertEquals(race,race);
-        assertNotNull(race);
+        assertNotNull(race.getRaceId());
 
         System.out.println(race);
 
